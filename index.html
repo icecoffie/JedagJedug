@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JJ-SyncWave</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<body>
+    <main>
+      <div class="content">
+        <div class="slider-playlist">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/user-attachments/assets/d35f07ac-d066-44a9-bea1-6e37043e096d" />
+                <h1>Garam Madu</h1>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/user-attachments/assets/99e4cb9c-d70d-4a49-a3b9-f8a06bcbf230" />
+                <h1>Bloodline</h1>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/user-attachments/assets/b68a4fae-5856-442d-b325-aefb4d9ffe5f" />
+                <h1>Engkol</h1>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/user-attachments/assets/027e0680-3727-4362-9119-38982e88bef1" />
+                <h1>Industry Baby</h1>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/user-attachments/assets/42cd88b4-9a03-4a42-9f8f-83e1c5ba56ab" />
+                <h1>Gang Up</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="playlist">
+            <div class="playlist-item">
+              <img
+                src="https://github.com/user-attachments/assets/d35f07ac-d066-44a9-bea1-6e37043e096d"
+                alt="" />
+              <div class="song">
+                <p>Garam Madu</p>
+                <p>Sakit Dadaku</p>
+              </div>
+              <p>3:41</p>
+              <i class="fa-regular fa-heart like-btn"></i>
+            </div>
+            <div class="playlist-item">
+              <img
+                src="https://github.com/user-attachments/assets/99e4cb9c-d70d-4a49-a3b9-f8a06bcbf230"
+                alt="" />
+              <div class="song">
+                <p>Bloodline</p>
+                <p>Ariana Grande</p>
+              </div>
+              <p>3:00</p>
+              <i class="fa-solid fa-heart like-btn"></i>
+            </div>
+            <div class="playlist-item">
+              <img
+                src="https://github.com/user-attachments/assets/b68a4fae-5856-442d-b325-aefb4d9ffe5f"
+                alt="" />
+              <div class="song">
+                <p>Engkol</p>
+                <p>JJ</p>
+              </div>
+              <p>3:24</p>
+              <i class="fa-regular fa-heart like-btn"></i>
+            </div>
+            <div class="playlist-item">
+              <img
+                src="https://github.com/user-attachments/assets/027e0680-3727-4362-9119-38982e88bef1"
+                alt="" />
+              <div class="song">
+                <p>Industry Baby</p>
+                <p>Lil X</p>
+              </div>
+              <p>3:25</p>
+              <i class="fa-regular fa-heart like-btn"></i>
+            </div>
+            <div class="playlist-item">
+              <img
+                src="https://github.com/user-attachments/assets/42cd88b4-9a03-4a42-9f8f-83e1c5ba56ab"
+                alt="" />
+              <div class="song">
+                <p>Gang Up</p>
+                <p>JJ</p>
+              </div>
+              <p>5:36</p>
+              <i class="fa-regular fa-heart like-btn"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="player">
+          <audio
+            id="audioPlayer"
+            src="song-list/AfricanFella-CumbiaDeli.mp3"
+            type="audio/mpeg"></audio>
+
+          <div class="controls">
+            <i class="fa-solid fa-shuffle" id="shuffleBtn"></i>
+            <i class="fa-solid fa-backward" id="prevBtn"></i>
+            <button id="playPauseBtn">
+              <i class="fa-solid fa-play" id="playPauseIcon"></i>
+            </button>
+            <i class="fa-solid fa-forward" id="nextBtn"></i>
+            <div class="volume">
+              <i class="fa-solid fa-volume-high"></i>
+              <input
+                type="range"
+                id="volume-range"
+                min="0"
+                max="100"
+                value="100" />
+            </div>
+          </div>
+
+          <input type="range" value="0" id="progress-bar" />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
