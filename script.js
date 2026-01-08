@@ -13,9 +13,9 @@ let currentSongIndex = 2;
 let isSongLoaded = false;
 
 const songs = [
-  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/garam%20madu.mp3", "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/bloodline.mp3", 
-  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/engkol.mp3", "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/industry%20baby.mp3", 
-  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/gang%20up.mp3",
+  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/DJ%20STECU%20STECU%20SETELAN%20CUEK%20BARU%20MALU%20SLOW%20VIRAL%20TIKTOK%20FULL%20SONG%20MAMAN%20FVNDY%202025.mp3","https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/bloodline.mp3", 
+  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/becak%20vol1.mp3", "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/dj%20terlalu%20cinta.mp3", 
+  "https://github.com/icecoffie/JedagJedug/raw/refs/heads/main/ngapain%20repot.mp3",
 ];
 
 var swiper = new Swiper(".swiper", {
@@ -110,7 +110,7 @@ playlistItems.forEach((item, index) => {
     currentSongIndex = index;
     loadAndPlaySong(index);
   });
-});
+}); 
 
 playPauseBtn.addEventListener("click", togglePlayPause);
 nextBtn.addEventListener("click", nextSong);
